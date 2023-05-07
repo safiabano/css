@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: coral;
+    padding: 20px;
+    position: sticky;
+    top: 1px;
+}
+li a{
+    text-decoration: none;
+}
+.service-container{
+    display: flex;
+}
+.service-box{
+    border: 3px solid grey;
+}
